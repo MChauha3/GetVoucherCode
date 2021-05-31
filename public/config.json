@@ -7,7 +7,7 @@
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "Get Voucher Code",
+      "name": "MDS APP Connect",
       "description": "A Template for a custom Journey Builder activity"
     }
   },
