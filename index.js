@@ -62,7 +62,7 @@ app.get('/connecttoMCData', function (request, responsefromWeb) {
 
 	axios({
 		method: 'post',
-		url: 'https://mctg9llgcpl0dff718-t9898wqh1.rest.marketingcloudapis.com/hub/v1/dataevents/key:testdataextension/rowset',
+		url: 'https://mctg9llgcpl0dff718-t9898wqh1.soap.marketingcloudapis.com/hub/v1/dataevents/key:testdataextension/rowset',
 		data: voucherData,
 		headers: {
 			'Authorization': 'Bearer ' + token,

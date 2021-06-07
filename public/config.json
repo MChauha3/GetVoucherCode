@@ -30,26 +30,31 @@
       "retryCount": 1,
       "retryDelay": 10000,
       "concurrentRequests": 5,
+      "useJwt": false,
       "url": "https://hint-mds-integration.herokuapp.com/journeybuilder/execute"
     }
   },
   "configurationArguments": {
-    "applicationExtensionKey": "627f0285-8ffa-4cc7-adcb-9d71cd57212f",
+    "applicationExtensionKey": "d075625a-430d-4129-8b3c-abffc0a26264",
     "save": {
       "url": "https://hint-mds-integration.herokuapp.com/journeybuilder/save",
-      "verb": "POST"
+      "verb": "POST",
+      "useJwt": false
     },
     "publish": {
       "url": "https://hint-mds-integration.herokuapp.com/journeybuilder/publish",
-      "verb": "POST"
+      "verb": "POST",
+      "useJwt": false
     },
     "stop": {
       "url": "https://hint-mds-integration.herokuapp.com/journeybuilder/stop",
-      "verb": "POST"
+      "verb": "POST",
+      "useJwt": false
     },
     "validate": {
       "url": "https://hint-mds-integration.herokuapp.com/journeybuilder/validate",
-      "verb": "POST"
+      "verb": "POST",
+      "useJwt": false
     }
   },
   "userInterfaces": {
