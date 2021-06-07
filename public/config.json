@@ -14,14 +14,14 @@
   "arguments": {
     "execute": {
       "inArguments": [{
-        "unique_key":  "{{Contact.Attribute.TestSunnyDE.unique_key}}",
-        "email_id":    "{{Contact.Attribute.TestSunnyDE.email_id}}",
-        "first_name":  "{{Contact.Attribute.TestSunnyDE.first_name}}",
-        "last_name":   "{{Contact.Attribute.TestSunnyDE.last_name}}",
-        "age":         "{{Contact.Attribute.TestSunnyDE.age}}",
-        "birth_date":  "{{Contact.Attribute.TestSunnyDE.birth_date}}",
-        "phone_number":"{{Contact.Attribute.TestSunnyDE.phone_number}}",
-        "is_married":  "{{Contact.Attribute.TestSunnyDE.is_married}}"
+        "unique_key":  "{{Contact.Attribute.TestMDSDE.unique_key}}",
+        "email_id":    "{{Contact.Attribute.TestMDSDE.email_id}}",
+        "first_name":  "{{Contact.Attribute.TestMDSDE.first_name}}",
+        "last_name":   "{{Contact.Attribute.TestMDSDE.last_name}}",
+        "age":         "{{Contact.Attribute.TestMDSDE.age}}",
+        "birth_date":  "{{Contact.Attribute.TestMDSDE.birth_date}}",
+        "phone_number":"{{Contact.Attribute.TestMDSDE.phone_number}}",
+        "is_married":  "{{Contact.Attribute.TestMDSDE.is_married}}"
       }], 
       "outArguments": [{
         "voucher_code":""
