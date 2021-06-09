@@ -12,8 +12,8 @@ define([
     $(window).ready(onRender);
 
     connection.on('initActivity', initialize);
-    connection.on('requestedTokens', onGetTokens);
-    connection.on('requestedEndpoints', onGetEndpoints);
+   // connection.on('requestedTokens', onGetTokens);
+    //connection.on('requestedEndpoints', onGetEndpoints);
     connection.on('clickedNext', save);
 
     function onRender() {
